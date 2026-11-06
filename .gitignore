@@ -1,0 +1,21 @@
+# --- Secrets : ne JAMAIS publier ---
+.env
+
+# --- Environnement Python (se recrée avec requirements.txt) ---
+.venv/
+__pycache__/
+*.pyc
+
+# --- Données ---
+data/raw/
+chroma_db/
+fastembed_cache/
+
+# --- Notebooks ---
+.ipynb_checkpoints/
+
+# --- Éditeur et système ---
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
